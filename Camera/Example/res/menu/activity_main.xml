@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/Camera_Flash"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/Camera_Flash">
+        
+        <menu >
+            <item 
+                android:id="@+id/Flash_Auto"
+             	android:title="@string/Flash_Auto"/>
+            <item
+                android:id="@+id/Flash_Off"
+                android:title="@string/Flash_Off"/>
+            <item
+                android:id="@+id/Flash_On"
+                android:title="@string/Flash_On"/>
+            <item
+                android:id="@+id/Flash_RedEye"
+                android:title="@string/Flash_RedEye"/>"
+        </menu>
+    </item>
+    
+    <item
+        android:id="@+id/Camera_Effects"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/Camera_Effects">
+        
+        <menu>
+            <item
+                android:id="@+id/Effects_MONO"
+                android:title="@string/Effects_MONO"/>
+            <item
+                android:id="@+id/Effects_Solarize"
+                android:title="@string/Effects_Solarize"/>
+        </menu>	
+    </item>
+
+</menu>

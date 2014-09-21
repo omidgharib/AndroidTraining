@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Camera</string>
+    <string name="Camera_Flash">Flash</string>
+	<string name="Flash_Auto">Auto</string>
+	<string name="Flash_On">On</string>
+	<string name="Flash_Off">Off</string>
+	<string name="Flash_RedEye">RedEye</string>
+	<string name="Camera_Effects">Effects</string>
+	<string name="Effects_MONO">MONO</string>
+	<string name="Effects_Solarize">Solarize</string>
+</resources>
