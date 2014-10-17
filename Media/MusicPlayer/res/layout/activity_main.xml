@@ -28,12 +28,46 @@
         android:layout_marginBottom="14dp" />
 
     <ImageButton
-        android:id="@+id/button_play"
+        android:id="@+id/imageButton3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button_play"
+        android:layout_toRightOf="@+id/SeekBarTestPlay"
+        android:src="@android:drawable/btn_star" />
+
+    <ImageButton
+        android:id="@+id/button_Prev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText_songurl"
+        android:layout_below="@+id/SeekBarTestPlay"
+        android:src="@drawable/rewind-7-icon-256" />
+
+    <ImageButton
+        android:id="@+id/button_play"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="22dp"
-        android:onClick="playOnClick"/>
+        android:layout_marginBottom="62dp"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/button_Prev"
+        android:src="@drawable/play" />
+
+    <ImageButton
+        android:id="@+id/button_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button_play"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@+id/button_play"
+        android:src="@android:drawable/btn_star" />
+
+    <ImageButton
+        android:id="@+id/button_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button_stop"
+        android:layout_toRightOf="@+id/button_stop"
+        android:src="@android:drawable/btn_star" />
 
 </RelativeLayout>
